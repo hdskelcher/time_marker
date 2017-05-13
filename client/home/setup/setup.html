@@ -1,0 +1,88 @@
+<template name="setup">
+    {{> header}}
+
+    <!--<ul>-->
+        <!--{{#each messages}}-->
+            <!--<li>{{name}}</li>-->
+        <!--{{/each}}-->
+    <!--</ul>-->
+    <div class="outer">
+        <div class="ui fluid card">
+            <div class="content">
+                <div class="header center name">
+                    <div class="ui fluid input">
+                        <input type="text" placeholder="Enter Workout Name">
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="ui horizontal segments">
+                    <div class="ui segment">
+                        <h2 class="center thin smallNumbers">00/00</h2>
+                        <p class="center"># of Sets</p>
+                    </div>
+                    <div class="ui segment">
+                        <h2 class="center thin smallNumbers">00:00</h2>
+                        <p class="center">Total Time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="extra content center">
+                <button class="ui red button show">Add an Interval</button>
+                <div class="ui modal">
+                    <div class="header">Header</div>
+                    <div class="content">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class="ui inverted dividing header center">
+            Current Workout
+        </h3>
+
+        <div class="ui fluid  segment">
+            <div class="ui grid">
+                <div class="ten wide column">
+                    <p class="left">Interval</p>
+                </div>
+                <div class="six wide column">
+                    <p class="right">00:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="ui fluid  segment">
+            <div class="ui grid">
+                <div class="ten wide column">
+                    <p class="left">Break</p>
+                </div>
+                <div class="six wide column">
+                    <p class="right">00:00</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="ui big bottom fixed menu inverted fluid four item icon">
+        <a class="item back">
+            <i class="chevron left inverted yellow left icon"></i>
+        </a>
+        <a class="disabled item">
+
+        </a>
+        <a class="disabled item">
+
+        </a>
+        <a class="item play">
+            <i class="play inverted yellow icon"></i>
+        </a>
+    </div>
+</template>

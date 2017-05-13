@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.outer {
+    width: 100%;
+    padding: 5%;
+    background: linear-gradient(10deg, #d42027, #ff8800, #f7bf08);
+    margin-top: -15px;
+    min-height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.smallNumbers {
+    color: #DB2828;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.thirty {
+    width: 33%;
+}
+
+.outer .segment {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.outer .card {
+    background-color: rgba(255, 255, 255, .4);
+    border: none;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.outer .content .segments .segment {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    opacity: .8;
+}
+.logo {
+    height: 50px;
+    width: auto;
+    padding: 2%;
+}
+
+.white {
+    color: #fff;
+}
+
+
+.bigNumber {
+     color: #000000;
+     font-size: 500%;
+ }
+
+.welcome {
+    color: #000;
+    font-size: 300%;
+    font-weight: 100;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
